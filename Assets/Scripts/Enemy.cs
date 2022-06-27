@@ -31,8 +31,15 @@ public class Enemy : MonoBehaviour
         anim.SetBool("Die", true);
 
         GetComponent<BoxCollider>().enabled = false;
-        this.enabled = false;
+        //this.enabled = false;
 
+       
+
+    }
+
+    void Die2()
+    {
+        Destroy(gameObject);
     }
 
 }
