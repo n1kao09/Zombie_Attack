@@ -11,6 +11,10 @@ public class TrocarScenes : MonoBehaviour
     {
         SceneManager.LoadScene(nomeDaCena);
     }
+    public void VoltarMenu()
+    {
+        SceneManager.LoadScene(nomeDaCena);
+    }
     public void sair()
     {
         Application.Quit();

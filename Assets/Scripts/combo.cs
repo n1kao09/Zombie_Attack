@@ -77,6 +77,7 @@ public class combo : MonoBehaviour
             podes_clicar = true;
             clicar = 0;
         }
+        atacar();
     }
 
     public void atacar()
